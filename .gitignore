@@ -1,0 +1,24 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest caches
+.pytest_cache/
+
+# Setuptools and packaging artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Environment files
+.env
+.venv
+venv/
+
+# Large local databases and exports
+*.db
+evernote_backup.db
+evernote_exports/
+obsidian_vault/
